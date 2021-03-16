@@ -16,7 +16,7 @@ $kanalimz ="@aloafm"; //kanal useri
    }
 
 function bot($method,$datas=[]){
-    $url = "https://api.telegram.org/bot".API_KEY."/".$method;
+    $url = "https://api.telegram.org/Akdbfkdbdjbot".."API_KEY/1617169154:AAF2qYRr5B4ji4Z64ecrci4ZvQ6apfzbFgI".$method;
     $ch = curl_init();
     curl_setopt($ch,CURLOPT_URL,$url);
 curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
@@ -773,7 +773,7 @@ bot('sendmessage',[
   }
 }if(strpos($tx,"tolandi=")!==false){
     $ex=explode("=",$tx);
-    $kanalimiz="-1001316250107";
+    $kanalimiz="-1236519314"
     $ab=file_get_contents("$ex[1].t");
     bot('sendmessage',[
         'chat_id'=>$kanalimiz,
