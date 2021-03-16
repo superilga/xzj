@@ -1,9 +1,9 @@
 <?php
 ob_start();
-define('API_KEY','951462446:AAGfLdbUpIrierJJHld_T6ppURNnLPc1QyA'); // botni tokeni kiritilsin
-$admin = "550584399"; //admin id
-$bot = "Earns_MoneyBot"; //bot ismi
-$kanalimz ="@Erkaklar_Blogi"; //kanal useri
+define('API_KEY',"1617169154:AAF2qYRr5B4ji4Z64ecrci4ZvQ6apfzbFgI"); // botni tokeni kiritilsin
+$admin = "903550099"; //admin id
+$bot = "AkdbfkdbdjBot"; //bot ismi
+$kanalimz ="@aloafm"; //kanal useri
    function del($nomi){
    array_map('unlink', glob("$nomi"));
    }
