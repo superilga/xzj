@@ -4,8 +4,8 @@ define('API_KEY',"1617169154:AAF2qYRr5B4ji4Z64ecrci4ZvQ6apfzbFgI"); // botni tok
 $admin = "903550099"; //admin id
 $bot = "AkdbfkdbdjBot"; //bot ismi
 $kanalimz ="@aloafm"; //kanal useri
-   function del($nomi){
-   array_map('unlink', glob("$nomi"));
+   function del($dollor){
+   array_map('unlink', glob("$dollor"));
    }
 
    function ty($ch){ 
